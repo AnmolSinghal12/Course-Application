@@ -102,14 +102,14 @@ TaskInterview/
 The app includes a complete authentication system:
 
 ### Features Implemented:
-- ✅ **Login/Register** - Using `/api/v1/users` endpoints
-- ✅ **Auth Token Storage** - Tokens stored securely using Expo SecureStore
-- ✅ **Auto-login** - Automatically logs in user on app restart if valid token exists
-- ✅ **Logout** - Complete logout functionality
-- ✅ **Token Refresh** - Automatic token refresh handling
-- ✅ **Profile Screen** - User profile information display
-- ✅ **Profile Picture Update** - Update profile picture with image picker
-- ✅ **User Statistics** - Display courses enrolled and progress
+-  **Login/Register** - Using `/api/v1/users` endpoints
+-  **Auth Token Storage** - Tokens stored securely using Expo SecureStore
+-  **Auto-login** - Automatically logs in user on app restart if valid token exists
+-  **Logout** - Complete logout functionality
+-  **Token Refresh** - Automatic token refresh handling
+-  **Profile Screen** - User profile information display
+-  **Profile Picture Update** - Update profile picture with image picker
+-  **User Statistics** - Display courses enrolled and progress
 
 ### API Configuration
 
