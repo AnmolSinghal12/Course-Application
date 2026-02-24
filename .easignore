@@ -1,0 +1,96 @@
+# Dependencies (EAS will install these fresh)
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.app
+
+# Development files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+
+# Test files
+**/__tests__/
+**/*.test.*
+**/*.spec.*
+
+# Cache directories
+.cache/
+.temp/
+tmp/
+
+# Large media files (exclude all video files)
+**/*.mp4
+**/*.mov
+**/*.avi
+**/*.mkv
+**/*.wmv
+**/*.flv
+**/*.webm
+**/*.m4v
+**/*.3gp
+
+# Exclude any directories outside project scope
+../**/*
+sister weding/**
+wedding pics/**
+
+# Android/iOS specific
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Package manager (keep lock files for EAS to install dependencies)
+# package-lock.json - Keep this, EAS needs it
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+
+# Exclude parent directories and sibling folders
+../*
+!../TaskInterview/**
+
+# Large files and directories
+**/pics/**
+**/pictures/**
+**/videos/**
+**/wedding/**
+**/sister/**
+**/*.mp4
+**/*.MP4
